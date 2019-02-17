@@ -5,7 +5,7 @@ import seaborn as sns
 #%matplotlib inline
 import warnings
 
-
+######### that code for read csv file from my directory
 telecom = pd.read_csv('C://Users//Utkarsh//Downloads//Compressed//churn-in-telecoms-dataset//telecomdataset.csv')
 print(telecom.head())
 
